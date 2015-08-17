@@ -4,15 +4,21 @@ html
     meta(charset='utf-8')
     title The class day 
     link(rel='stylesheet', href='app.css')
+
   body
     #back-img
       .ui.grid
         .row#timer
-          .six.wide.column.head 我们毕业
-          .four.wide.column.num 
+          .seven.wide.column.head 我们毕业
+          .three.wide.column.num 
           .six.wide.column.tail 天了！
-      video(width="720" height="480" controls)
-        source(src="res/ClassDay_pop.MP4" type="video/mp4")
+        .row
+          #video
+            video( controls, width='600' , height='400' , preload="auto")
+              source(src='res/ClassDay_pop.MP4')
+
+
+
 
     script(src='app.js')
 
