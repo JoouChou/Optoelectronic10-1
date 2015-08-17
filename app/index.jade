@@ -6,16 +6,29 @@ html
     link(rel='stylesheet', href='app.css')
 
   body
-    #back-img
+    #back-img-1
       .ui.grid
         .row#timer
           .seven.wide.column.head 我们毕业
           .three.wide.column.num 
           .six.wide.column.tail 天了！
         .row
-          #video
-            video( controls, width='600' , height='400' , preload="auto")
+          #video1
+            video( controls, preload="auto")
               source(src='res/ClassDay_pop.MP4')
+    #back-img-2
+      .ui.grid
+        .row
+          .seven.wide.column
+            h2.ui.header
+              img.ui.image(src='res/img/school.png')
+          .nine.wide.column
+            h2.ui.header
+              .content
+                See See More
+
+
+
 
 
 
