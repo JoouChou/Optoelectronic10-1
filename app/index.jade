@@ -1,0 +1,51 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title The class day 
+    link(rel='stylesheet', href='app.css')
+
+  body
+    #back-img-1
+      .ui.grid
+        .row#timer
+          .seven.wide.column.head 我们毕业
+          .three.wide.column.num 
+          .six.wide.column.tail 天了！
+        .row
+          #video1
+            video( controls, preload="auto")
+              source(src='res/ClassDay_pop.MP4')
+    #back-img-2
+      .ui.grid
+        .row
+          .seven.wide.column
+            h2.ui.header
+              img.ui.image(src='res/img/school.png')
+          .nine.wide.column
+            h2.ui.header
+              .content See More
+       
+        .row.link#video
+          .four.wide.column 
+            .title 女生寝
+            <embed src="http://player.youku.com/player.php/sid/XMTMwNTU1NTE1Ng==/v.swf&auto=0" allowFullScreen="true" quality="high" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+          .four.wide.column 
+            .title 512寝
+            <embed src="http://player.youku.com/player.php/sid/XMTMxMjQyOTExNg==/v.swf&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+          .four.wide.column 
+            .title 514寝
+            <embed src="http://player.youku.com/player.php/sid/XMTMwNTU1MDUwMA==/v.swf&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+          .four.wide.column 
+            .title 515寝
+            <embed src="http://player.youku.com/player.php/sid/XMTMwNTU1MTAyNA==/v.swf&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+
+
+
+
+    script(src='app.js')
+
+//- vi:et:nowrap:sw=2:ts=2
